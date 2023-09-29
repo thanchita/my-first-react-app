@@ -17,3 +17,7 @@
   box-sizing: border-box;
   border: none;
 }
+
+.button:hover {
+  background-color: white;
+}
