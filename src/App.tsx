@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Greeting name="PomPam" greetingMsg="Hello!" />
+      <Greeting name="PomPam" greetingMsg="Hello!" isLoggedIn={false} />
     </div>
   )
 }
