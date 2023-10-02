@@ -1,5 +1,5 @@
 .nav {
-  padding: 0px 18px;
+  padding: 10px 18px;
   width: 100%;
   box-sizing: border-box;
   background-color: black;
@@ -20,4 +20,5 @@
 
 .button:hover {
   background-color: white;
+  cursor: pointer;
 }
