@@ -3,7 +3,6 @@ import classes from './Greeting.module.css'
 
 interface IGreetingProps {
   name: string
-  greetingMsg: string
   isLoggedIn: boolean
 }
 const Greeting = ({ name, isLoggedIn }: IGreetingProps) => {
