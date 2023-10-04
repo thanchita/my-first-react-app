@@ -4,3 +4,9 @@ export interface PostDTO {
   title: string
   body: string
 }
+
+export interface CreatePostDTO {
+  userId: number
+  title: string
+  body: string
+}
