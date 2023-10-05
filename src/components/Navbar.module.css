@@ -1,24 +1,41 @@
-.nav {
-  padding: 10px 18px;
+.navbar {
+  height: auto;
   width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
+  padding: 20px 16px;
   box-sizing: border-box;
-  background-color: black;
-  color: white;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
 }
 
-.button {
-  border-radius: 6px;
+.menu {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.inactive {
+  text-decoration: none;
+}
+
+.active {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login {
+  background-color: #eee;
   padding: 8px 10px;
-  background-color: gray;
   box-sizing: border-box;
   border: none;
+  border-radius: 6px;
 }
 
-.button:hover {
-  background-color: white;
+.login:hover {
+  background-color: lightgray;
   cursor: pointer;
 }
